@@ -1,0 +1,11 @@
+.container {
+    display: flex;
+    justify-content: center;
+    background-color: #eee;
+    padding-bottom: 40px;
+}
+
+.center {
+    column-count: 3;
+    width: 900px;
+}
