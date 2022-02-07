@@ -11,6 +11,7 @@ header {
     justify-content: center;
     align-items: center;
     background-color: #fff;
+    height: 10vh;
     padding: 22px;
     box-shadow: 1px 2px 5px rgba(0, 0, 0, 0.3);
     z-index: 2;

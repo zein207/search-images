@@ -4,10 +4,14 @@ import './index.css';
 import App from './App';
 import reportWebVitals from './reportWebVitals';
 
+import { NextUIProvider } from '@nextui-org/react';
+
 ReactDOM.render(
-  <React.StrictMode>
-    <App />
-  </React.StrictMode>,
+  <NextUIProvider>
+    <React.StrictMode>
+      <App />
+    </React.StrictMode>
+  </NextUIProvider>,
   document.getElementById('root')
 );
 
